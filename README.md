@@ -54,6 +54,14 @@ erDiagram
 | `v_skill_ranking` | 技能レベルのキャラ内順位 | `RANK()` ウィンドウ関数 |
 | `v_effect_usage` | マスタの各エフェクトを何人が持っているか、平均・最大レベル | マスタ×明細の `LEFT JOIN` |
 
+### ダッシュボード（Looker Studio）
+
+!\[ダッシュボード1](docs/dashboard_1.png)  
+!\[ダッシュボード2](docs/dashboard_2.png)  
+\[レポートを開く](https://datastudio.google.com/s/pgVN0DDwznk)
+
+
+
 ## 設計のポイント
 
 1. **冪等性（何度流しても同じ結果）**
@@ -105,7 +113,6 @@ dx3-data-pipeline/
 
 ## 今後の改善点
 
-- **可視化**：ビューを Looker Studio につないでダッシュボードにする
 - **自動実行**：GitHub Actions で、テキストを追加したら取り込みからロードまで自動で動かす
 - **テスト**：解析処理を pytest で単体テストし、キャラシートの書式が変わったときに気づけるようにする
 - **dbt への移行**：ビューの SQL を dbt のモデルにして、依存関係とテストを管理する
