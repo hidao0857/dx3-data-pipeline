@@ -56,8 +56,8 @@ erDiagram
 
 ### ダッシュボード（Looker Studio）
 
-!\[ダッシュボード1](docs/dashboard_1.png)  
-!\[ダッシュボード2](docs/dashboard_2.png)  
+![ダッシュボード1](docs/dashboard_1.png)  
+![ダッシュボード2](docs/dashboard_2.png)  
 \[レポートを開く](https://datastudio.google.com/s/pgVN0DDwznk)
 
 
